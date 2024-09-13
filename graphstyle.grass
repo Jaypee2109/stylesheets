@@ -1,9 +1,6 @@
 node {
   diameter: 50px;
-  color: #FAF0E6; /* Linen */
-  border-color: #000000; /* Black for consistency */
   border-width: 2px;
-  text-color-internal: #000000; /* Black for consistency */
   font-size: 10px;
   caption: "<id>";
 }
@@ -18,9 +15,7 @@ relationship {
   caption: "<type>";
 }
 
-/* Custom node labels with distinct colors */
-
-node.Hotel {
+node.Object_information {
   color: #FF8C00; /* Dark Orange */
   border-color: #000000; /* Black */
   text-color-internal: #000000; /* Black */
@@ -28,7 +23,7 @@ node.Hotel {
   caption: "{name}";
 }
 
-node.Property {
+node.Beach {
   color: #DDA0DD; /* Plum */
   border-color: #000000; /* Black */
   text-color-internal: #000000; /* Black */
@@ -84,7 +79,7 @@ node.Meals {
   caption: "{name}";
 }
 
-node.Object_information {
+node.Hotel {
   color: #800000; /* Maroon */
   border-color: #000000; /* Black */
   text-color-internal: #FFFFFF; /* White */
@@ -118,7 +113,7 @@ node.Category {
 node.Building_info {
   color: #000000; /* Black */
   border-color: #000000; /* Black */
-  text-color-internal: #000000; /* Black */
+  text-color-internal: #FFFFFF; /* White */
   caption: "{name}";
 }
 

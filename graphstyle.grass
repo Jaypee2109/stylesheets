@@ -32,7 +32,7 @@ node.Beach {
 }
 
 node.Facilities {
-  color: #98FB98; 
+  color: #DDFFAD; 
   border-color: #000000; 
   text-color-internal: #000000; 
   defaultCaption: "<id>";

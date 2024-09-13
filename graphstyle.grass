@@ -6,120 +6,123 @@ node {
 }
 
 relationship {
-  color: #C0C0C0; /* Light Gray */
+  color: #C0C0C0;
   shaft-width: 1px;
   font-size: 8px;
   padding: 3px;
-  text-color-external: #000000; /* Black for better readability */
-  text-color-internal: #000000; /* Black for contrast */
+  text-color-external: #000000; 
+  text-color-internal: #000000; 
   caption: "<type>";
 }
 
 node.Object_information {
-  color: #FF8C00; /* Dark Orange */
-  border-color: #000000; /* Black */
-  text-color-internal: #000000; /* Black */
+  color: #FF8C00; 
+  border-color: #000000; 
+  text-color-internal: #000000; 
   defaultCaption: "<id>";
   caption: "{name}";
 }
 
 node.Beach {
-  color: #DDA0DD; /* Plum */
-  border-color: #000000; /* Black */
-  text-color-internal: #000000; /* Black */
+  color: #DDA0DD; 
+  border-color: #000000; 
+  text-color-internal: #000000; 
   defaultCaption: "<id>";
   caption: "{name}";
 }
 
 node.Facilities {
-  color: #98FB98; /* Pale Green */
-  border-color: #000000; /* Black */
-  text-color-internal: #000000; /* Black */
+  color: #98FB98; 
+  border-color: #000000; 
+  text-color-internal: #000000; 
   defaultCaption: "<id>";
   caption: "{name}";
 }
 
 node.Distances {
-  color: #6495ED; /* Cornflower Blue */
-  border-color: #000000; /* Black */
-  text-color-internal: #000000; /* Black */
+  color: #6495ED; 
+  border-color: #000000; 
+  text-color-internal: #000000; 
   defaultCaption: "<id>";
   caption: "{name}";
 }
 
 node.Hotel_type {
-  color: #FFFF00; /* Yellow */
-  border-color: #000000; /* Black */
-  text-color-internal: #000000; /* Black */
+  color: #FFFF00; 
+  border-color: #000000; 
+  text-color-internal: #000000; 
   defaultCaption: "<id>";
   caption: "{name}";
 }
 
 node.Hygiene {
-  color: #FF1493; /* Deep Pink */
-  border-color: #000000; /* Black */
-  text-color-internal: #FFFFFF; /* White */
+  color: #FF1493; 
+  border-color: #000000; 
+  text-color-internal: #FFFFFF; 
   defaultCaption: "<id>";
   caption: "{name}";
 }
 
 node.Location {
-  color: #008080; /* Teal */
-  border-color: #000000; /* Black */
-  text-color-internal: #FFFFFF; /* White */
+  color: #008080; 
+  border-color: #000000; 
+  text-color-internal: #FFFFFF; 
   defaultCaption: "<id>";
   caption: "{name}";
 }
 
 node.Meals {
-  color: #00FF00; /* Lime */
-  border-color: #000000; /* Black */
-  text-color-internal: #000000; /* Black */
+  color: #00FF00; 
+  border-color: #000000; 
+  text-color-internal: #000000; 
   defaultCaption: "<id>";
   caption: "{name}";
 }
 
 node.Hotel {
-  color: #800000; /* Maroon */
-  border-color: #000000; /* Black */
-  text-color-internal: #FFFFFF; /* White */
+  color: #800000; 
+  border-color: #000000; 
+  text-color-internal: #FFFFFF; 
   defaultCaption: "<id>";
   caption: "{name}";
 }
 
 node.Payment {
-  color: #4B0082; /* Indigo */
-  border-color: #000000; /* Black */
-  text-color-internal: #FFFFFF; /* White */
+  color: #4B0082; 
+  border-color: #000000; 
+  text-color-internal: #FFFFFF; 
   defaultCaption: "<id>";
   caption: "{name}";
 }
 
 node.Room_facilities {
-  color: #808000; /* Olive */
-  border-color: #000000; /* Black */
-  text-color-internal: #FFFFFF; /* White */
+  color: #808000; 
+  border-color: #000000; 
+  text-color-internal: #FFFFFF; 
   defaultCaption: "<id>";
   caption: "{name}";
 }
 
 node.Category {
-  color: #0000FF; /* Blue */
-  border-color: #000000; /* Black */
-  text-color-internal: #FFFFFF; /* White */
+  color: #0000FF; 
+  border-color: #000000; 
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
   caption: "{name}";
 }
 
 node.Building_info {
-  color: #000000; /* Black */
-  border-color: #000000; /* Black */
-  text-color-internal: #FFFFFF; /* White */
+  color: #000000; 
+  border-color: #000000; 
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
   caption: "{name}";
 }
 
 node.Sports_entertainment {
-  color: #FAF0E6; /* Linen */
-  border-color: #000000; /* Black */
-  text-color-internal: #000000; /* Black */
+  color: #FAF0E6; 
+  border-color: #000000; 
+  text-color-internal: #000000;
+  defaultCaption: "<id>";
   caption: "{name}";
 }

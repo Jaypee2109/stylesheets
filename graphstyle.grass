@@ -1,0 +1,161 @@
+node {
+  diameter: 50px;
+  color: #C990C0;
+  border-color: #b261a5;
+  border-width: 2px;
+  text-color-internal: #FFFFFF;
+  font-size: 10px;
+  caption: "<id>";
+}
+relationship {
+  color: #A5ABB6;
+  shaft-width: 1px;
+  font-size: 8px;
+  padding: 3px;
+  text-color-external: #000000;
+  text-color-internal: #FFFFFF;
+  caption: "<type>";
+}
+
+/* Custom node labels with distinct colors */
+
+node.Car {
+  color: #FF5733; /* Bright Red */
+  border-color: #C70039;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{deletion}";
+}
+
+node.Person {
+  color: #FF8D1A; /* Orange */
+  border-color: #FF5722;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{deletion}";
+}
+
+node.Company {
+  color: #57C7E3; /* Light Blue */
+  border-color: #23b3d7;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+  caption: "{deletion}";
+}
+
+node.Hotel {
+  color: #FF5733; /* Red-Orange */
+  border-color: #eb2728;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+
+node.Property {
+  color: #D9C8AE; /* Light Brown */
+  border-color: #c0a378;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+
+node.None {
+  color: #6FA44D; /* Green */
+  border-color: #5db665;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+
+node.Facilities {
+  color: #ECB5C9; /* Light Pink */
+  border-color: #da7298;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+
+node.Distances {
+  color: #4C8EDA; /* Blue */
+  border-color: #2870c2;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+
+node.Hotel_type {
+  color: #FFC454; /* Yellow */
+  border-color: #d7a013;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+
+node.Hygiene {
+  color: #DA7194; /* Pink */
+  border-color: #cc3c6c;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+
+node.Location {
+  color: #569480; /* Dark Green */
+  border-color: #447666;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+
+node.Meals {
+  color: #FF8D1A; /* Bright Orange */
+  border-color: #f36924;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+
+node.Object_information {
+  color: #604A0E; /* Dark Brown */
+  border-color: #423204;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+
+node.Payment {
+  color: #A569BD; /* Purple */
+  border-color: #8E44AD;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+
+node.Room_facilities {
+  color: #D9C8AE; /* Beige */
+  border-color: #c0a378;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+
+node.Category {
+  color: #569480; /* Dark Green */
+  border-color: #447666;
+  text-color-internal: #FFFFFF;
+  caption: "{name}";
+}
+
+node.Building_info {
+  color: #FFBB33; /* Soft Orange */
+  border-color: #FFA500;
+  text-color-internal: #2A2C34;
+  caption: "{name}";
+}
+
+node.Sports_entertainment {
+  color: #8DCC93; /* Light Green */
+  border-color: #5db665;
+  text-color-internal: #2A2C34;
+  caption: "{name}";
+}
